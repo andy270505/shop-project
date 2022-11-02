@@ -14,52 +14,65 @@
 </head>
 <body>
 
-    <!--<header>Header</header>
-    <section>
-        <article class="a1">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores quod eligendi animi laudantium, voluptatum incidunt ut atque quae? Ex repellat suscipit recusandae, molestias error itaque fugiat cum doloribus beatae!</p>
-        </article>
-        <article class="a2">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores quod eligendi animi laudantium, voluptatum incidunt ut atque quae? Ex repellat suscipit recusandae, molestias error itaque fugiat cum doloribus beatae!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta odit, illo repudiandae nam mollitia consequuntur facilis minus aspernatur odio modi quidem iste sequi porro obcaecati architecto doloremque, ea molestias natus!</p>
-        </article>
-        <article class="a3">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores quod eligendi animi laudantium, voluptatum incidunt ut atque quae? Ex repellat suscipit recusandae, molestias error itaque fugiat cum doloribus beatae!</p>
-        </article>
-        <article class="a4">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores quod eligendi animi laudantium, voluptatum incidunt ut atque quae? Ex repellat suscipit recusandae, molestias error itaque fugiat cum doloribus beatae!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus placeat ab aperiam reiciendis? Quam magnam ipsam sit accusamus? Dicta, distinctio sunt perspiciatis sequi atque eveniet voluptate tempore quos blanditiis.</p>
-        </article>
-        <article class="a5">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores quod eligendi animi laudantium, voluptatum incidunt ut atque quae? Ex repellat suscipit recusandae, molestias error itaque fugiat cum doloribus beatae!</p>
-        </article>
-    </section>-->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <nav>
-                    <ul class="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Shipping</a></li>
-                        <li><a href="">Payment</a></li>
-                    </ul>
-                    </nav>
-                </div>
-                <div class="col-3">search</div>
-            </div>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="logo">
+            <a href="">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAAAnCAYAAABAFqmbAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkU2RTQyRDJFQzU4MzExRTc5RkUxQTc5Q0U3RjJFRUVDIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkU2RTQyRDJGQzU4MzExRTc5RkUxQTc5Q0U3RjJFRUVDIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTZFNDJEMkNDNTgzMTFFNzlGRTFBNzlDRTdGMkVFRUMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTZFNDJEMkRDNTgzMTFFNzlGRTFBNzlDRTdGMkVFRUMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6UGUl2AAAET0lEQVR42uydzXHiMBTHRSYNOCU41+zJlEBmK4ASzDl7wSWEy96hBGggO1CCc9ozLiEqIYsmT7OsVx+WLenJ8P4zusT4+W/x89OnyeTp5a1kjG3Y/2rO5ZGRQuvzXJbnsvUU7wSx1rdQeb9/fmd3xBBp7CKISQQxiUQQk0gEMYkgJpEIYmcV57I6l5p9TS9dlh0cy3rEzeHcUyvmqRXzoLjuAdk7tmbsa5pVVS+rjjE2inpcKer71beXmBDn8EXXcCOF4jNzOPbR4WbblXWCc3LFdWXMUnEc2zumMoBDwifWBSZQHtjXWoF8aHPH+qqhvt8vYopS+fZyF/FJr+GLdgGz7pDZNg7QbHpAHNI7pvILjwKSJYAixeFvcsGr1jy8Ohg5nFuF9hID4gJuKhtwrgmWcqTeU8jAApQpQKITh8800Bp1SSoi+z7H8hID4p0HkF4NfeAxeseW9LRwOGcBdV5a7ncGWTOal9AQm/qg+1a/ZwFPsC7j5oo+qC4rHOGJlbGncL1UvGN3I8S9rS1Zr60GzllZsqpLXC9eYkCs0hq++KYFxrMBhlIBhw6wdpx3uN46Ee+YKsF7nw1HewDVND44xvTy7ceveUiIC81AgBtg4oaBQNmKrcvClYcKDuld14/89FRsWX/eo1W6TAbccA1ueJCDeQkNsQ4kbgGNa5qq3BJ738qQKXpXadmahhpSGktznzuCpoInNxxzGVx68RIS4iE3erTEzDxUIpZ3TBWe6ykJLyEhzgyd8i4d9z4Q8xF4xx7UCZ0GdFdmqXm5R6hI7uEzWIsI3NNnsDW5Fi9Yb3ZkDk9paqD48E7yrJAQD2lWbc05D5yhQ3rHVIPckgXxEhLiIaDNekJcjMB7CuAU1+QlJMSmif/MAkGmAauxxJ55yjIhvWOD0yQEcTMGiBtNNjMtXer2Guw7xt70yJIxvWNrz9JZQfTiJfTATre6JUDYtfqYYvXGtN2vHUu3VDmH2EWrm7FjbhuGQnrH1JbZN/KMysudZZTtOm93UphsDLBdzhHuDBCo4mwNfVcJlYztuh84tHfsZlxunsmuwUuMKbYFGzYlJpr2StPPXI/UO7YquC/XvdKvikSF7iUGxO8DYLCdu3YEmSfkHVty0/qh4+DqAM3+IjUvsRY75P5el216W/Z3F7/tSa46elgm5h1Tl29J1NAlKhVdSjFQ/oAsOWVh9l0M8hJzxa6BJ24K0DUaYMSxB0fgRDZ+1MTdQ6znAVkxpHdsLaDuOPRNVWOcKtJD2cvL5Onljd2QVkw9DbYdGXgk0DX9KmbXmYeUV9NICc9OxMiuO2Z/IXNlgPhIKBDEWLp841n+gEp7QaNg5t+maFgam8RJPXU/cv8b9u/covy1H5fX5CvCgDIxZhYeunlky9La10C6MYjltFffQZmceiMRxKgSfVkxr+i6aifgXdDXTxCnJNGvlb+4uNWAWwG4D8zffyoiJaA/AgwA1jLD+Aq45OAAAAAASUVORK5CYII=" alt="" />
+            </a>
+          </div>
         </div>
-    </header>
-    <main class="main">Main</main>
-    <footer class="footer">Footer</footer> 
-
-
-
+        <div class="col-6">
+          <nav>
+            <!-- ul.menu>li*4>a -->
+            <ul class="menu">
+              <li><a href="">Home</a></li>
+              <li class="products">
+                <a class="menu-products" href="">Products</a>
+                <ul class="submenu">
+                  <li><a href="">Lorem ipsum dolor</a></li>
+                  <li><a href="">Sit amet</a></li>
+                  <li><a href="">Consectetur adipisicing</a></li>
+                  <li><a href="">Tempor incididant</a></li>
+                  <li><a href="">Dolore magna aliqua</a></li>
+                  <li><a href="">Ut enim ad minim veniam</a></li>
+                  <li><a href="">Quis nostrud</a></li>
+                </ul>
+              </li>
+              <li><a href="">Shipping</a></li>
+              <li><a href="">Payment</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-3">
+          <div class="search">
+            <input
+              class="search-input"
+              type="search"
+              name=""
+              id=""
+              placeholder="search"
+            />
+            <button class="search-button" type="submit">
+              <img
+                src="images/search.png"
+                alt=""
+                width="14px"
+                height="12px"
+              />
+            </button>
+          </div>
+          <button class="basket" type="submit">
+            <img src="images/basket.png" alt="" width="18px" height="20px" />
+            <span>3</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">Main</main>
+  <footer class="footer">Footer</footer>
 </body>
 </html>
